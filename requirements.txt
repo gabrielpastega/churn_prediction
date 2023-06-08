@@ -1,5 +1,5 @@
 optuna==3.1.1
-pickle==0.7.5
+pickle==0.7.4
 requests==2.30.0
 pandas==2.0.1
 numpy==1.24.3
