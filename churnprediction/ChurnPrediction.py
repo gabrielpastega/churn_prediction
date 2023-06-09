@@ -16,6 +16,8 @@ class ChurnPrediction():
 #         return None
 
     def preprocessing(self, df):
+        
+        df['EstimatedSalary'] = df['EstimatedSalary'].astype('float64')
  
         # selecionando as features numéricas
         num_cols = ['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary']
