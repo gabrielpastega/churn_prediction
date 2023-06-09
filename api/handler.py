@@ -52,4 +52,4 @@ def churn_prediction():
         return Response('{}', status=200, mimetype='application/json')
     
 if __name__ == '__main__':
-    app.run('0.0.0.0')
+    app.run(host='0.0.0.0')
