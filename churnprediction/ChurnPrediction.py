@@ -5,9 +5,9 @@ import numpy  as np
 class ChurnPrediction():
     def __init__(self):
         self.home_path = ''
-        self.cb_model_tuned = pickle.load(open(self.home_path + '/src/models/cb_model_tuned.pkl', 'rb'))
-        self.te_encoder     = pickle.load(open(self.home_path + '/src/encoders/te_encoder.pkl', 'rb'))
-        self.rb_scaler      = pickle.load(open(self.home_path + '/src/scalers/rb_scaler.pkl', 'rb'))
+        self.cb_model_tuned = pickle.load(open(self.home_path + 'src/models/cb_model_tuned.pkl', 'rb'))
+        self.te_encoder     = pickle.load(open(self.home_path + 'src/encoders/te_encoder.pkl', 'rb'))
+        self.rb_scaler      = pickle.load(open(self.home_path + 'src/scalers/rb_scaler.pkl', 'rb'))
 
 #     def data_cleaning(df):
 #         return None
