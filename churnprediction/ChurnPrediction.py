@@ -18,10 +18,10 @@ class ChurnPrediction():
     def preprocessing(self, df):
  
         # selecionando as features numéricas
-        num_cols = df.select_dtypes(include=['int64', 'float64']).columns
+        num_cols = ['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary']
 
         # selecionando as features categóricas
-        cat_cols = df.select_dtypes(exclude=['int64', 'float64']).columns
+        cat_cols = ['Geography', 'Gender']
         
         # ENCODING
         # aplicando nas variáveis categóricas
