@@ -154,7 +154,7 @@ class ChurnPrediction():
         clients = clients
 
         budget = 10000
-        bonus_values = [50, 100, 200]
+        bonus_values = [200, 100, 50]
 
         max_revenue, selected_clients = self.clients_selection(clients, budget, bonus_values)
 
