@@ -68,7 +68,7 @@ class ChurnPrediction():
             (25000 <= results['Revenue']) & (results['Revenue'] < 35000),
             results['Revenue'] < 25000
         ]
-        choices = [1, 2, 3]
+        choices = [0, 1, 2]
 
         results['Category'] = np.select(conditions, choices)
 
