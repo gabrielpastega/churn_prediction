@@ -31,3 +31,9 @@
 <p><img src="https://github.com/gabrielpastega/churn_prediction/blob/main/img/google_sheets.gif" alt="" /></p>
 <p>Esse processo utiliza uma plataforma em nuvem chamada Render, que hospeda nosso algoritmo e aplicativo gratuitamente.</p>
 <p>Caso precise de mais informa&ccedil;&otilde;es ou tenha d&uacute;vidas, estou &agrave; disposi&ccedil;&atilde;o para disponibilizar todos os documentos utilizados neste projeto.</p>
+<h2>PŔOXIMOS PASSOS</h2>
+<ul>
+<li>Feature Engineering das vari&aacute;veis</li>
+<li>Melhoria do desempenho do modelo</li>
+<li>Verificar feedback do modelo e ajustar conforme necess&aacute;rio</li>
+</ul>
